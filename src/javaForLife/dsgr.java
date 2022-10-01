@@ -7,7 +7,7 @@ public class dsgr {
     public static void main(String[] args) {
 
         Scanner scan= new Scanner(System.in);
-        System.out.println("isim ve soyisim giriniz : ");
+        System.out.print("isim ve soyisim giriniz : ");
         String isim= scan.nextLine();
         String soyisim= scan.nextLine();
 
