@@ -2,7 +2,7 @@ package J11_MethodCreation.methodCreationsTasks;
 
 import java.util.Scanner;
 
-public class Task12 {
+public class Task12_mailKontrol {
 
     public static void main(String[] args) {
 
@@ -26,10 +26,21 @@ public class Task12 {
     validateEmail("hello@edabit.com")
     Çıktı : true
     */
+        Scanner scan=new Scanner (System.in);
+        System.out.println("Mail adresi giriniz : ");
+        String mail=scan.nextLine();
+
+        System.out.println(mailKontrol(mail));
 
 
     }
+    public static boolean mailKontrol(String m) {
 
+        boolean dogruMu;
+        if (m.contains("@") && m.contains(".")&& (m.indexOf("@")>0 )) {
+            dogruMu=true;
+        } else dogruMu=false;
+        return dogruMu;
+        }
 
-
-}
+    }

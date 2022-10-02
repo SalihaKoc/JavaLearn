@@ -6,10 +6,8 @@ public class Task14 {
 
     public static void main(String[] args) {
 
-    /*
-    Fazla mesaiyi hesaplayan bir  method create ediniz
+    /*Fazla mesaiyi hesaplayan bir  method create ediniz
     Yazacağınız program toplam kazancı return etsin.
-
     Kullanıcıdan saatlik çalışma ücretini, hangi saatler arasında çalıştığını ve
     fazla mesaiye kalırsa kazancını kaç ile katlayacağını alalım.
 
@@ -29,6 +27,33 @@ public class Task14 {
     toplam = 536.0
     */
 
+        Scanner scan= new Scanner(System.in);
+        System.out.print("saatlik çalışma ücreti giriniz : ");
+       double ucret=scan.nextDouble();
+        System.out.print("hangi saatte çalışmaya başladınız : ");
+        double mesaibas= scan.nextDouble();
+        System.out.print("hangi saatte çalışmayı bitirdiniz: ");
+        double mesaibit= scan.nextDouble();
+        System.out.print("kazancınızı kaç ile katlayacağımızı giriniz : ");
+        double kat=scan.nextDouble();
+
+        System.out.println("Toplam alınacak ücret :" + ucretHesapla(ucret, mesaibit, mesaibas, kat));
 
     }
+
+    public static double ucretHesapla(double uct, double mBs, double mBt, double kat) {
+
+        double maas=0;
+        if (mBs-mBt>8) {
+
+            maas= (8*uct)+((mBs-mBt-8)*uct*kat);
+
+        }else {
+            maas= (mBs-mBt)*uct; }
+
+        return maas;
+
+    }
+
+
 }

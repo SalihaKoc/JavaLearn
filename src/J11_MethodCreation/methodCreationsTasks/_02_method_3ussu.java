@@ -2,7 +2,9 @@ package J11_MethodCreation.methodCreationsTasks;
 
 import java.util.Scanner;
 
-public class _12_method12 {
+import static java.lang.Math.pow;
+
+public class _02_method_3ussu {
 
     /*
     powerOfThree isminde bir method oluşturun.
@@ -35,10 +37,26 @@ public class _12_method12 {
 
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
 
-
+        System.out.println("Bir tam sayi giriniz:");
+        int sayi = scan.nextInt();
+        System.out.println(powerOfThree(sayi));
     }
 
+   public static boolean powerOfThree (int i) {
 
-    }
+       while (i>3) {
+           i /=3;
+       }
+       return i%3 ==0;
+   }
+
+  //public static boolean powerOfThree (int sayi){
+  //    double kok = Math.pow(sayi, 1/3);
+  //    return kok;
+  //}
+
+
+}
 
