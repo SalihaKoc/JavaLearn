@@ -16,15 +16,12 @@ public class q10 {
         System.out.println("Bir kelime giriniz : ");
         String kelime = scan.next();
 
-        Scanner sc2 = new Scanner(cumle);
-        for(int i = 0; i < 4; i++) {
-            sc2.next();
-            if (sc2.next().equals(kelime)) {
 
+        if (cumle.indexOf(kelime)>-1) {
+                if (cumle.indexOf(kelime) == cumle.lastIndexOf(kelime)) {
                 System.out.println("Girilen kelime cumlede 1 kere kullanilmis");
 
-                //} else if (cumle.indexOf(kelime) != cumle.lastIndexOf(kelime)){
-                //System.out.println("Girilen kelime cumlede 1’den fazla kullanilmis");
+                } else System.out.println("Girilen kelime cumlede 1’den fazla kullanilmis");
 
             } else System.out.println("Girilen kelime cumlede kullanilmamis");
 
@@ -33,5 +30,4 @@ public class q10 {
 
 
     }
-}
 
