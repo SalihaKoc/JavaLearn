@@ -1,4 +1,4 @@
-package J12_Loopss;
+package J12_Loops.L01_ForLoop;
 
 public class C01_ForLoop {
     public static void main(String[] args) {

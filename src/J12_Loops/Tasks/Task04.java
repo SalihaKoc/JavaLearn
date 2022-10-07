@@ -1,4 +1,4 @@
-package Tasks;
+package J12_Loops.Tasks;
 
 import java.util.Scanner;
 

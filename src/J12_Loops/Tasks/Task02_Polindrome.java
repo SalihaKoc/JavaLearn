@@ -1,4 +1,4 @@
-package Tasks;
+package J12_Loops.Tasks;
 
 import java.util.Scanner;
 
@@ -17,7 +17,6 @@ public class Task02_Polindrome {
 
         polindrome(str);//String parametreli method call
 
-
     }//main dışı
 
     private static void polindrome(String str) {//
@@ -31,7 +30,7 @@ public class Task02_Polindrome {
         if (str.equalsIgnoreCase(tersStr)){//str ile tersSTr eşitlik kontrolu
             System.out.println("girilen ifade POLİNDROME ");
 
-        }else System.out.println("girlen ifade polindrome değil");
+        }else System.out.println("girilen ifade polindrome değil");
 
 
     }
