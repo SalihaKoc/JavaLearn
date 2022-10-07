@@ -17,6 +17,7 @@ public class Task04_AtmMethod {
             case 4: cikisYap(); break;
             default:
                 System.out.println("yanlış seçim yaptınız");
+                secim();
         }
     }
 
@@ -51,11 +52,14 @@ public class Task04_AtmMethod {
         System.out.println("Devam için -> 1 \nÇıkış için -> 0");
         int karar=scan.nextInt();
         if (karar==1){
+            System.out.println("MÖNÜÜÜ : )\nBakiye öğrenme -> 1\nPara yatırma -> 2\nPara Çekme -> 3\nÇıkış -> 4\n");
             secim();
         }else if (karar==0){
             cikisYap();
         }else System.out.println("Geçerli seçim yapınız");
 
     }
+
+
 
 }

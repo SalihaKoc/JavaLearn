@@ -6,16 +6,27 @@ public class dsgr {
     // Soru 4 Kullanicidan isim ve soyismini isteyin ve hangisinin daha uzun oldugunu yazdirin.
     public static void main(String[] args) {
 
-        Scanner scan= new Scanner(System.in);
-        System.out.print("isim ve soyisim giriniz : ");
-        String isim= scan.nextLine();
-        String soyisim= scan.nextLine();
+//  int a=1, b=1;
+//  Scanner scan=new Scanner(System.in);
+//  System.out.print("Fibonacci Serisi görmek istediğiniz sayıyı giriniz : ");
+//  int sayi=scan.nextInt();
+//  System.out.print("1 1 ");
+//  fibo(a, b);
 
-        //System.out.println((name.length() > surname.length()) ? (name.length() == surname.length()) ? "isim ve soyisim uzunlukları eşit" : "isim daha uzun" : "soyisim daha uzun"  );
+//
 
-        System.out.println(isim.length() > soyisim.length() ? "Isminiz, soyisminizden daha uzundur." : +
-                soyisim.length() > isim.length() ? "Soyisminiz, isminizden daha uzundur" : "Isim ve soyisminizin uzunlugu aynidir.");
+//blic static void fibo(int a, int b) {
+
+//  int c=a+b;
+//  if(c<500) {
+//      a = b;
+//      b = c;
+//      System.out.println(b + " ");
+//      fibo(a, b);
+//  }
+
+        for( int i =1 ;i<10;i=i++){
+            System.out.println(i);
+        }
     }
-
-
 }
