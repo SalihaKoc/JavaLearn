@@ -1,6 +1,4 @@
-package J12_Loops.Tasks;
-
-import java.util.Scanner;
+package J12_Loops.L01_ForLoop.Tasks;
 
 public class Task11_Nested {
 
