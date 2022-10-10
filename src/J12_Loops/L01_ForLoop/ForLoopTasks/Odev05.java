@@ -1,5 +1,7 @@
 package J12_Loops.L01_ForLoop.ForLoopTasks;
 
+import java.util.Scanner;
+
 public class Odev05 {
 
     /*
@@ -31,9 +33,19 @@ public class Odev05 {
      */
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
-
-
-
+        System.out.println("Bir tam sayi giriniz:");
+        int sayi = scan.nextInt();
+        System.out.println(powerOfThree(sayi));
     }
+
+    public static boolean powerOfThree (int i) {
+
+        while (i>3) {
+            i /=3;
+        }
+        return i%3 ==0;
+    }
+
 }

@@ -13,15 +13,13 @@ public class Odev09 {
         Girilen sayı=4
         Kareler toplamı=30
      */
-
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir tamsayı giriniz: ");
         int sayi = scanner.nextInt();
         int toplam = 0;
 
-        for (int i = 1; i < sayi; i++) {
+        for (int i = 1; i <= sayi; i++) {
 
             toplam = (i * i) + toplam;
 
