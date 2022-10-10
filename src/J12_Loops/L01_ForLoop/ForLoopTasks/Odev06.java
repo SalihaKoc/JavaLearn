@@ -11,6 +11,6 @@ public class Odev06 {
         for (int i=0; i<10; i++) {
             toplam+=i;
         }
-        System.out.println(toplam);
+        System.out.println("Sayıların toplamı = " + toplam);
     }
 }

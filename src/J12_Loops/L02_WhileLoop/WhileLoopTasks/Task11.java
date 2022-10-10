@@ -20,10 +20,5 @@ public class Task11 {
         }
         System.out.println(adet +" sayının toplamı = "+ toplam);
 
-
-
-
-
-
     }
 }
