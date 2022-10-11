@@ -20,7 +20,7 @@ public class C03_AsalKontrol {
                 break;
             }
 
-        }if (asalMi){
+        }if (asalMi& sayi!=1){
             System.out.println("Girilen sayı asal");
         } else System.out.println("Girilen sayı asal değil");
 
