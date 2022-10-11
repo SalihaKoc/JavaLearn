@@ -10,11 +10,12 @@ public class Task13 {
          */
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Bir karakter giriniz : ");
-        char karakter = scan.next().charAt(0);
+
+        char karakter;
 
         do {
-            karakter = scan.next().charAt(0);
+            System.out.println("Bir karakter giriniz : ");
+            karakter = scan.next().toLowerCase().charAt(0);
             if (karakter=='x') {
                 System.out.println("JAVATAR");
             } else System.out.println("javaCan");
