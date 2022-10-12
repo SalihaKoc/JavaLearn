@@ -1,4 +1,4 @@
-package javaForLife;
+package javaForLife.task01;
 
 import org.w3c.dom.ls.LSOutput;
 

@@ -80,5 +80,16 @@ public class C01_Arrays {
         //System.out.println(koltukSayisi);
         System.out.println(Arrays.toString(yeniArr));
 
+        //array elemanları naturel (k->b : ascending, b->k :descending(alfabetik) sıralama
+
+        System.out.println(Arrays.toString(isimArr)); //[muharrem, enise, cebrail, nazım, QA Özge Hanım]
+        Arrays.sort(isimArr); //isimArr elemanları naturel sıralama yapıldı
+        System.out.println(Arrays.toString(isimArr)); //[QA Özge Hanım, cebrail, enise, muharrem, nazım]
+
+        System.out.println(Arrays.toString(sayiArr)); //[34, 34, 34, 61, 0]
+        Arrays.sort(sayiArr);
+        System.out.println(Arrays.toString(sayiArr)); //[0, 34, 34, 34, 61]
+
+
     }
 }

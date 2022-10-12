@@ -2,7 +2,7 @@ package J13_Break_Continue.HaftanınTaskiii;
 
 import java.util.Scanner;
 
-public class dene {
+public class tasKagıtMakas {
     static Scanner scan = new Scanner(System.in);
     static int numberOfCom;
     static int numOfPlayer;

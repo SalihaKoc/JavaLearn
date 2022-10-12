@@ -1,4 +1,4 @@
-package javaForLife;
+package javaForLife.task01;
 
 import java.util.Scanner;
 
