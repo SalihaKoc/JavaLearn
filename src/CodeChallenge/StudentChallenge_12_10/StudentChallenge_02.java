@@ -1,4 +1,4 @@
-package CodeChallenge;
+package CodeChallenge.StudentChallenge_12_10;
 
 public class StudentChallenge_02 {
 
