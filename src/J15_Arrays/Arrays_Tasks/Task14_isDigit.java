@@ -2,7 +2,7 @@ package J15_Arrays.Arrays_Tasks;
 
 import java.util.Arrays;
 
-public class Task14 {
+public class Task14_isDigit {
     public static void main(String[] args) {
         /*  TASK :
         Write a method which accepts  string as parameter and prints the sum of digits

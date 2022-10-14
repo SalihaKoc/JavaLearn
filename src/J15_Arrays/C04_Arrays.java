@@ -19,6 +19,13 @@ public class C04_Arrays {
 
         System.out.println((sayi1[0] == sayi2[0])); //true
 
+        //Array'i stringe çevirme... toString(arr); -> arr'i string data type çevirir
+
+        String str=Arrays.toString(sayi1);
+        System.out.println("str = "+str); //str = [3, 39, 63, 72, 84] -> AHAN DA TRICK !!! arrayin tüm karakterleri String olarak tanımlandı
+
+        System.out.println("str uzunluk : "+str.length());
+        System.out.println(str.substring(6)); //, 63, 72, 84]
 
     }
 }
