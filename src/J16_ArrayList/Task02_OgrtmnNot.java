@@ -3,7 +3,7 @@ package J16_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class NotOrtalama {
+public class Task02_OgrtmnNot {
 
     public static void main(String[] args) {
 

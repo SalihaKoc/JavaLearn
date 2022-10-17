@@ -17,6 +17,10 @@ public class C06_Set {
        // System.out.println(listSehir.set(11, "pataGONYA")); //olmayan index set edilirse RTE verir
         System.out.println(listSehir);
 
+     //  listSehir.set(1,"bursa",2,"izmir"); // -> List te çoklu set metodu çalışmaz.. buz gibi INTERVIEW sorusu.. CTE
+
+
+
 
     }
 }

@@ -26,5 +26,14 @@ public class C12_Remove {
         System.out.println("listSehir = " + listSehir); // [Stockholm, Munih, Ankara, Munih]
 
 
+        ArrayList<String>listUlke=new ArrayList<>(List.of("Almanya","Amerika","İngiltere","İsveç"));
+
+        listSehir.addAll(listUlke); //ülkelistin hepsi listsehire eklendi
+        System.out.println("listSehir = " + listSehir); //[Stockholm, Munih, Ankara, Munih, Almanya, Amerika, İngiltere, İsveç]
+
+        listSehir.removeAll(listUlke); //listsehirden listulkenin hepsi çıkarıldı
+        System.out.println("listSehir = " + listSehir);  //[Stockholm, Munih, Ankara, Munih]
+
+
     }
 }
