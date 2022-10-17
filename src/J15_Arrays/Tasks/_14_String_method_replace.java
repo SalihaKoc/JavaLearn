@@ -1,5 +1,7 @@
 package J15_Arrays.Tasks;
 
+import java.util.Arrays;
+
 public class _14_String_method_replace {
 
     public static void main(String[] args) {
@@ -11,6 +13,8 @@ public class _14_String_method_replace {
         HellK WKrld
          */
 
+        String metin = "Hello World";
+        System.out.println(metin.replace("o", "K"));
 
     }
 }

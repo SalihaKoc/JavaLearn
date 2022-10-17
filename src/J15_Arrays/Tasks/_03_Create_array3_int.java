@@ -8,9 +8,14 @@ public class _03_Create_array3_int {
           Array in elemanlarının toplamını yazdır.
           Cevap 220 olmalı.
      */
+        int sayi[]={25,30,30,35,100};
 
+        int toplam=0;
 
-
+        for (int value: sayi) {
+            toplam+=value;
+        }
+        System.out.println("toplam = " + toplam);
 
     }
 }

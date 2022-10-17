@@ -10,8 +10,9 @@ public class _04_Create_Array_String {
         Cevap 4 olmalı.
          */
 
+        String city[]={ "new jersey" , "new york", "boston","California"};
 
-
+        System.out.println("eleman sayısı = " + city.length);
 
     }
 }

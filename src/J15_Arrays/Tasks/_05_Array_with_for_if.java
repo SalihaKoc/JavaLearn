@@ -12,6 +12,14 @@ public class _05_Array_with_for_if {
         Toplamlarını yazdırın.
          */
 
+        int sayi[]={5,6,8,12,14,19};
 
+        int toplam=0;
+        for (int i: sayi) {
+            if(i%2==0){
+                toplam+=i;
+            }else toplam-=i;
+        }
+        System.out.println("sonuç = " + toplam);
     }
 }

@@ -11,6 +11,12 @@ public class _06_Array_contains {
         Loops (döngüler) kullanın.
          */
 
+        String arr[]={"Apple" , "Orange" , "Banana" , "Pineapple"};
 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]=="Apple"){
+                System.out.println(true); break;
+            }else System.out.println(false); break;
+        }
     }
 }

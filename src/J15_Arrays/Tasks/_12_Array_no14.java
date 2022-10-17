@@ -21,7 +21,17 @@ public class _12_Array_no14 {
         NOT: Array elemanlarını 1,2,3 olarak değiştirirseniz sonuç doğru olmalı
          */
 
+        int intArr[]={1,2,3,4};
+        System.out.println(Arrays.toString(intArr));
+        boolean flag = true;
 
+        for (int i = 0; i < intArr.length; i++) {
+
+            if (intArr[i] == 1 || intArr[i] == 4) {
+                flag = false;
+            } else flag = true;
+        }
+        System.out.println(flag);
 
     }
 }

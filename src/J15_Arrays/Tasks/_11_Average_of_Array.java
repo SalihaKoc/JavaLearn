@@ -9,6 +9,18 @@ public class _11_Average_of_Array {
         Array'in ortalamasını alınız.
          */
 
+        int sayi[]={12, 14 , 21 ,23 , 10 ,4};
+
+        int toplam=0;
+        int ortalama=0;
+
+        for (int i : sayi) {
+
+            toplam+=i;
+
+        }
+        System.out.println("ortalama = " + (ortalama = toplam / sayi.length));
+
 
     }
 }
