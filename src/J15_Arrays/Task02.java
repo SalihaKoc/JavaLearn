@@ -15,15 +15,22 @@ public class Task02 {
 
         int sayilarArr []=new int[scan.nextInt()]; //boyutu belirlenmiş boş int array
         int arrToplam=0;
-        for (int i = 0; i < sayilarArr.length; i++) {
-            System.out.print(i + ". index eleman giriniz : ");
+    for (int i = 0; i < sayilarArr.length; i++) {
+        System.out.print(i + ". index eleman giriniz : ");
 
-            sayilarArr[i]=scan.nextInt();
-            arrToplam+=sayilarArr[i];
+        sayilarArr[i]=scan.nextInt();
+        arrToplam+=sayilarArr[i];
+    }
+    System.out.println("girdiğiniz array : " + Arrays.toString(sayilarArr));
+
+    System.out.println("toplam : " + arrToplam);
+
+
+       /* for each ile ...
+       for (int sayi: sayilarArr) {
+            arrToplam+=sayi;
         }
-        System.out.println("girdiğiniz array : " + Arrays.toString(sayilarArr));
-
-        System.out.println("toplam : " + arrToplam);
+        System.out.println(arrToplam); */
 
     }
 }

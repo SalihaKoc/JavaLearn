@@ -14,7 +14,17 @@ public class Task10 {
         int arr[]={1,2,-3,4,-5,-6};
         System.out.println("ilk hali : " +Arrays.toString(arr));
         isaretDegistir(arr);
+        isaretDegistirForEach(arr);
 
+
+    }
+
+    private static void isaretDegistirForEach(int[] arr) {
+
+        for (int i : arr ){
+            i*=-1;
+        }
+        System.out.println("For Each ile : " + Arrays.toString(arr));
     }
 
     private static void isaretDegistir(int[] arr) {
@@ -25,5 +35,7 @@ public class Task10 {
         }
         System.out.println("yeni hal = " + Arrays.toString(arr));
     }
+
+
 
 }

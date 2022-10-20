@@ -15,6 +15,5 @@ public class Task08 {
         ArrayList<Integer> listSayi=new ArrayList<>();
 
 
-
     }
 }
