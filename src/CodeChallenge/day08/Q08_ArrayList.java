@@ -12,5 +12,7 @@ public class Q08_ArrayList {
          *  5. Eger bu kullanici adi zaten varsa, sonuna rastgele sayi olusturup ekleyelim, ve gosterelim.
          */
 
+
+
     }
 }
