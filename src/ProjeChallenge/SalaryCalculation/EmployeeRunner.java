@@ -1,7 +1,5 @@
 package ProjeChallenge.SalaryCalculation;
 
-import ProjeChallenge.SalaryCalculation.Employee;
-
 public class EmployeeRunner {
 
     public static void main(String[] args) {
