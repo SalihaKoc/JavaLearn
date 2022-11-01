@@ -1,6 +1,6 @@
-package J23_Varags;
+package J23_Varargs_StringBuilder.Varargs;
 
-public class C01_Varags {
+public class C01_Varargs {
     public static void main(String[] args) {
 /*
         VARARGS :

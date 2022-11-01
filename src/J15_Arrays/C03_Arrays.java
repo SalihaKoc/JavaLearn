@@ -19,6 +19,7 @@ public class C03_Arrays {
 
         //task-> string ifadeyi harf sayısını print eden code
         String harfArr[]= str.split(""); //string harf harf "("")hiçliğe gööre" parcalandı
+
         System.out.println(Arrays.toString(harfArr)); // [j, a, v, a, C, A, N, ', l, a, r, a,  , s, e, l, a, m,  , o, l, s, u, n, .,  , E, n,  , k, ı, s, a,  , z, a, m, a, n, d, a,  , b, o, l, c, a, n, a,  , o, f, f, e, r, ,,  , s, o, n, r, a, s, ı,  , T, U, Z, L, A, B, A, L, I, K,  , :, )]
         System.out.println(harfArr.length); //78
 

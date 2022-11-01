@@ -14,4 +14,10 @@ public class Kullanıcı {
         this.kayitZamani=kayitZamani;
 
     }
+
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                ", kayitZamani=" + kayitZamani;
+    }
 }
