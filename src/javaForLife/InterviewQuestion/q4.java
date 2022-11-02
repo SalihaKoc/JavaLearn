@@ -25,7 +25,12 @@ public class q4 {
         Collections.reverse(str1);
         System.out.println(str1);
 
+     // String str="ABCD";
 
+     // for (int i = str.length()-1; i >=0; i--) {
+     //     System.out.print(str.charAt(i));
+     // }
+    scan.close();
 
     }
 

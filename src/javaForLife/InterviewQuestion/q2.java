@@ -1,5 +1,7 @@
 package javaForLife.InterviewQuestion;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class q2 {
@@ -16,6 +18,7 @@ Ex : removeDup("AAABBBCCC") ==> ABC
         String str=scan.nextLine().toUpperCase();
 
         karakterler(str);
+       // System.out.println("sıklık(str) = " + sıklık(str));
 
     }
     private static void karakterler(String str) {
@@ -30,7 +33,16 @@ Ex : removeDup("AAABBBCCC") ==> ABC
             if (flag == 0)
                 System.out.print(str.charAt(i));
         }
+        System.out.println();
 
     }
+
+  // private static String sıklık(String str) {
+  //     String sık="";
+  //     for (String w: str.split("")) {
+  //         sık+= Collections.frequency(Arrays.asList(str.split("")),w) > 1 ? w: "";
+  //     }
+  //     return sık;
+  // }
 
 }
