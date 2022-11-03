@@ -54,7 +54,7 @@ public class q6_parola {
             int rakamSay=0;
 
             for (int i = 0; i <parola.length() ; i++) {
-                if(parola.charAt(i)>=65 && parola.charAt(i)<=90)
+                if(parola.charAt(i)>=65 && parola.charAt(i)<=90) //parola.charAt(i)>='A' && parola.charAt(i)<='Z')
                     bykHarfSay++;
                 if (parola.charAt(i)>=97 &&parola.charAt(i)<=122)
                     kckHarfSay++;

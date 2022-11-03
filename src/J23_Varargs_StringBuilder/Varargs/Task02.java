@@ -10,7 +10,7 @@ public class Task02 {
 
         int arrTop[]={24, 23, 38, 33, 21, 59, 26,10};
 
-        System.out.println("(2,arrTop) = " + toplaCarp(2, arrTop));
+        System.out.println("(2,arrTop) = " + toplaCarp(2,arrTop));
     }
 
     public static int toplaCarp(int carpilacakSayi, int...toplanacakSayilar) {

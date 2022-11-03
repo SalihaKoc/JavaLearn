@@ -18,5 +18,6 @@ public class C06_Duration {
         System.out.println("fark.toMinutes() = " + fark.toMinutes());//fark bilgisi dakikay cevirildi
 
         System.out.println("fark.toMillis() = " + fark.toMillis());
+
     }
 }

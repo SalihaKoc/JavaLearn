@@ -18,6 +18,7 @@ public class Task01 {
         strBirlestir(arr1); //merve
         strBirlestir(arr2); //ali
         strBirlestir("javaCan"," enise"," hanım"); //javaCan enise hanım
+        strBirles(arr1);
     }
 
     public static void strBirlestir(String ...str) {
@@ -28,5 +29,11 @@ public class Task01 {
             birlesenStr=birlesenStr.concat(w);
         }
         System.out.println("birlesenStr = " + birlesenStr);
+    }
+
+    public static void strBirles(String ...str) {
+        for (String i:str) {
+            System.out.print(i);
+        }
     }
 }

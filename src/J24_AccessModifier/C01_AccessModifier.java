@@ -41,7 +41,7 @@ public class C01_AccessModifier {
              System.out.println("protected methoddan selam");
          }
 
-        // C01_AccessModifier obj3=new C01_AccessModifier(); //private cons call edildi, aynı class
+        //C01_AccessModifier obj3=new C01_AccessModifier(); //private cons call edildi, aynı class
 
 
 }

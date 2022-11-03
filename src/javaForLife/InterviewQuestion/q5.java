@@ -16,6 +16,7 @@ public class q5 {
         String str=scan.next().toUpperCase();
 
         karakterSklk(str);
+      //  frequency(str);
 
     }
 
@@ -38,4 +39,18 @@ public class q5 {
             System.out.print(""+bosStr.charAt(i)+ sayac);
         }
     }
-}
+
+ //   public static void frequency(String str){// ABBCCCAABBD --> AB2C3A2B2D
+ //       for (int i = 0; i < str.length(); ) {
+ //           int count=0;
+ //           for (int j = i; j <str.length() ; j++) {
+ //               if(str.charAt(i)==str.charAt(j)){
+ //                   count++;
+ //               }else
+ //                   break;
+ //           }
+ //           System.out.print(count==1?str.charAt(i):str.charAt(i)+""+count);
+ //           i+=count;
+ //       }
+    }
+

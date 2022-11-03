@@ -19,7 +19,7 @@ public class q1 {
         String str2=scan.next().toLowerCase();
 
         System.out.println(ayniHarfMi(str1, str2));
-
+scan.close();
     }
     private static boolean ayniHarfMi(String str1, String str2) {
 
