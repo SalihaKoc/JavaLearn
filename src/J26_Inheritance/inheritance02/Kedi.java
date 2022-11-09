@@ -2,6 +2,9 @@ package J26_Inheritance.inheritance02;
 
 public class Kedi extends Mammal{
 
+    /*
+    Child class obj olmadan parent class variable ve methodlara ulaşabilir
+     */
     public Kedi() {
 
         super();

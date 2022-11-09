@@ -4,12 +4,12 @@ public class Mammal extends Hayvancik {
 
     public Mammal() {
 
-        this('y');
+        this('y'); // bu clastan parametreli cons call edlidi
         System.out.println("MAMMAL p'siz cons...");
     }
     public Mammal(char c) {
 
-        super(17);
+        super(17); //parent class parametreli cons call edildi
         System.out.println("MAMMAL p'li cons...");
     }
     public void mC() {
