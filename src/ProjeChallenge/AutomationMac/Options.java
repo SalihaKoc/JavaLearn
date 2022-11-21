@@ -31,7 +31,9 @@ public class Options {
         }while(urun.getProductNum()<0 || urun.getProductNum()>7);
 
         switch (urun.getProductNum()) {
-            case 0: System.out.println("Yine bekleriz..."); break;
+            case 0: System.out.println("Yine bekleriz...");
+            System.exit(0);
+            break;
             case 1: urun.setPrice(urun.getKraker()); break;
             case 2: urun.setPrice(urun.getCips()); break;
             case 3: urun.setPrice(urun.getCocaCola()); break;
@@ -66,4 +68,25 @@ public class Options {
         return accountBalance;
     }
 
+    public void purchase(double price, double accountBalance, Urun urun) {
+
+        while (accountBalance>=price) {
+
+            accountBalance=accountBalance-price;
+            System.out.println("Kalan bakiye : " + accountBalance);
+
+            Scanner scan=new Scanner(System.in);
+            System.out.println("Başka bir ürün almak istiyor musunuz? (Y/N) ");
+            char confirm=scan.next().toLowerCase().charAt(0);
+
+            if (confirm=='n') {
+                System.out.println("Yine bekleriz...");
+                break;
+            }else {
+                urun.setPrice(select(urun));
+                accountBalance=balance(urun.getPrice(),accountBalance,urun);
+            }
+        }
+
+    }
 }
