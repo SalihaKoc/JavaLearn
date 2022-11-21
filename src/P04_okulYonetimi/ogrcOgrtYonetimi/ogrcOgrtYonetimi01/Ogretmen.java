@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01;
+
 public class Ogretmen extends Kisi {
 
     private String bolum;

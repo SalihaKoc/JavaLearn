@@ -1,4 +1,8 @@
-public class Kisi implements OkulYonetimi{
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi02;
+
+import P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi02.OkulYonetimi;
+
+public class Kisi implements OkulYonetimi {
 
     private  String adSoyad;
     private String kimlikNo;

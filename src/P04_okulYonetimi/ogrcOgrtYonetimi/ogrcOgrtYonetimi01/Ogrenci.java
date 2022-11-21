@@ -1,3 +1,7 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01;
+
+import P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01.Kisi;
+
 public class Ogrenci extends Kisi {
 
     private String ogrcNo;

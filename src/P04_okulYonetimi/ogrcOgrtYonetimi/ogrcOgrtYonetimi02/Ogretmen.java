@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi02;
+
 public class Ogretmen extends Kisi{
     private String brans;
     private String sicilNo;

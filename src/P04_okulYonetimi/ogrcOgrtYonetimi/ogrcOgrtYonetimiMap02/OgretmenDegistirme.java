@@ -1,7 +1,12 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
+import P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02.Degistirme;
+import P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02.OgretmenIslemleri;
+
 import java.util.InputMismatchException;
 import java.util.Map;
 
-public class OgretmenDegistirme extends OgretmenIslemleri implements Degistirme{
+public class OgretmenDegistirme extends OgretmenIslemleri implements Degistirme {
     public void degiştir() {
         System.out.println(R+"============= DEGİŞİKLİK ISLEMLERI =============\n" +
                 "\t\t 1-ADI SOYADI\n" +

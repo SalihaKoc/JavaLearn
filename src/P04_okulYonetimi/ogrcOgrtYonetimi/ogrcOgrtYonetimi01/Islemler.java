@@ -1,3 +1,7 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01;
+
+import P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01.Kisi;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

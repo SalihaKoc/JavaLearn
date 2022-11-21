@@ -1,3 +1,5 @@
+package P04_okulYonetimi.notHesap;
+
 public class Course {
     Teacher teacher;
     String name;

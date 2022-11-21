@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi02;
+
 public interface OkulYonetimi {
     void ekleme();
     void altMenu();

@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi02;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 

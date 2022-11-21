@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap01;
+
 import java.util.Scanner;
 
 public class TryCatches {

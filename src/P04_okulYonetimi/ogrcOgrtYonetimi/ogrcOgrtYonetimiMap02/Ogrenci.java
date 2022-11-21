@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
 public class Ogrenci extends Kisi {
     private int numara;
     private String sinif;

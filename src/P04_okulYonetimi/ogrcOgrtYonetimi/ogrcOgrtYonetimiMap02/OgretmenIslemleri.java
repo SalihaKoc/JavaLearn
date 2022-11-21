@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
 import java.util.*;
 
 public class OgretmenIslemleri extends Method implements Islem, GirisCikisInterface {

@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
 public class Ogretmen extends Kisi {
     private String bolum;
     private int sicilNo;

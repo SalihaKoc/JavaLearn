@@ -1,5 +1,5 @@
 import java.util.stream.IntStream;
-
+/*
 public class Lambda_5 {
 
 	public static void main(String[] args) {
@@ -34,4 +34,4 @@ public class Lambda_5 {
 
 	}
 
-}
+ */

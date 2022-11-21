@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
 public class Kisi {
     private String adiSoyadi;
     private String kimlikNo;

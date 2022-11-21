@@ -1,3 +1,5 @@
+package P04_okulYonetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimiMap02;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

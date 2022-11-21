@@ -1,3 +1,8 @@
+package P04_okulYonetimi.notHesap;
+
+import P04_okulYonetimi.notHesap.Course;
+import P04_okulYonetimi.notHesap.Teacher;
+
 import java.util.ArrayList;
 import java.util.List;
 
