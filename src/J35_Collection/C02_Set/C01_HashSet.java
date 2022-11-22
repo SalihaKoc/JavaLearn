@@ -72,7 +72,8 @@ public class C01_HashSet {
         System.out.println("hs1 = " + hs1);//[null, Basarı, Ercan, Adem, Kevser, Asıktır, Nur, Yakup, Rukiye, Gayrete ]
 
         //set remove()-> istenen eleman set'ten silinir
-        System.out.println("hs1.remove(\"asıktır\") = " + hs1.remove("asıktır"));//olmayan eleman silinirse->false
+        System.out.println("hs1.remove(\"asıktır\") = " + hs1.remove("asıktır"));//ol
+        // mayan eleman silinirse->false
         System.out.println("hs1.remove(\"Asıktır\") = " + hs1.remove("Asıktır"));//varolan eleman silinirse ->true
         System.out.println("hs1 = " + hs1);//[null, Basarı, Ercan, Adem, Kevser, Nur, Yakup, Rukiye, Gayrete ]
 

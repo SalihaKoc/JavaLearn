@@ -1,5 +1,7 @@
+package Lambda;
+
 import java.util.stream.IntStream;
-/*
+
 public class Lambda_5 {
 
 	public static void main(String[] args) {
@@ -30,8 +32,8 @@ public class Lambda_5 {
 		
 		
 		// 7)  11'den 33'e kadar her tam sayinin rakamlarinin toplamini hesaplamak icin bir method olusturunuz.
-		IntStream.range(11, 33).map(Lambda_Methods::rakamlarToplami).forEach(t -> System.out.print(t + " ")); // 2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9 10 11 3 4 5 
+		IntStream.range(11, 33).map(Lambda_Methods::rakamlarToplami).forEach(t -> System.out.print(t + " ")); // 2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9 10 11 3 4 5
 
 	}
 
- */
+}

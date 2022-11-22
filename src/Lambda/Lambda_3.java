@@ -1,12 +1,16 @@
+package Lambda;
+
+import Lambda.Lambda_Methods;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-/*
+
 public class Lambda_3 {
 
 	public static void main(String[] args) {
 		
-		List <Integer> myList = new ArrayList<>(Arrays.asList(7, 12, 14, 4, 9, 2, 4, 12, 16));
+		List<Integer> myList = new ArrayList<>(Arrays.asList(7, 12, 14, 4, 9, 2, 4, 12, 16));
 		
 		ilkDörtEleman(myList);
 	System.out.println();
@@ -21,7 +25,7 @@ public class Lambda_3 {
 	// 1) Kücükten büyüge sirala sonra ilk 4 elemani yazdirin.
 	public static void ilkDörtEleman(List <Integer> myList) {
 		
-		myList.stream().sorted().limit(4).forEach(Lambda_Methods::bosluklaYazdir); // 2 4 4 7 
+		myList.stream().sorted().limit(4).forEach(Lambda_Methods::bosluklaYazdir); // 2 4 4 7
 		// limit() --> Istenildigi kadar elemani getirmeye yarayan method'dur.
 	}
 	
@@ -48,5 +52,3 @@ public class Lambda_3 {
 	}
 
 }
-
- */

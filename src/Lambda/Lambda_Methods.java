@@ -1,3 +1,5 @@
+package Lambda;
+
 public class Lambda_Methods {
 	
 	public static void bosluklaYazdir(Object O) {

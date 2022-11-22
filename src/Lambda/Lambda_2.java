@@ -1,9 +1,10 @@
+package Lambda;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
-/*
 public class Lambda_2 {
 	
 	// Method Reference'da bizim olusturdugumuz method'lari veya JAVA method'larini kullaniriz.
@@ -119,5 +120,3 @@ public class Lambda_2 {
 		
 	}
 }
-
- */
