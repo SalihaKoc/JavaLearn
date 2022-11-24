@@ -1,5 +1,5 @@
 
-package CodeChallenge.StudentChallenge_12_10;
+package CodeChallenge.StudentChallenge;
 
 public class StudentChallenge_03 {
 

@@ -1,6 +1,6 @@
-package javaForLife;
+package J99_Lambda;
 
-public class Ex12_10_canBalanced {
+public class C01_LambdaExpression {
 
     public static void main(String[] args) {
 

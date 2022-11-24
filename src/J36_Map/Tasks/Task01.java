@@ -1,4 +1,4 @@
-package J36_Map;
+package J36_Map.Tasks;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -11,7 +11,6 @@ public class Urun {
     Urun() {
 
     }
-
     public Urun(int id, String isim, String uretici, String birimi) {
         this.id = id;
         this.isim = isim;
