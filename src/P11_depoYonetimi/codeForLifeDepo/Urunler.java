@@ -1,7 +1,6 @@
 package P11_depoYonetimi.codeForLifeDepo;
 
 public class Urunler {
-
     static int idVer = 1000;
     String urunIsmı;
     String uretici;
